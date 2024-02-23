@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  marlin20xanycubici3megas:
+    image: marlin20xanycubici3megas
+    build:
+      context: .
+      dockerfile: ./Dockerfile
